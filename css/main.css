@@ -1,0 +1,29 @@
+.photo-gallery a {
+  text-decoration: none;
+}
+
+img {
+  border-style: solid;
+  border-width: 3px;
+  border-color: #bbb;
+  padding: inherit;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Meddon', cursive;
+}
+
+body{
+  background-color: #ccc;
+text-align: center;
+font-family: 'Oranienbaum', serif;
+font-size: 20px;
+
+}
+
+img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
